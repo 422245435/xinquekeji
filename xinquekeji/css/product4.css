@@ -1,0 +1,253 @@
+/*浮动*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*定位*/
+
+/*渐变*/
+.jian_bian{
+	background:-webkit-linear-gradient(top,#FFFFFF,#f8f8f8);
+	background:-moz-linear-gradient(top,#FFFFFF,#f8f8f8);
+	background:-ms-linear-gradient(top,#FFFFFF,#f8f8f8);
+	background:-o-linear-gradient(top,#FFFFFF,#f8f8f8);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF,endColorstr=#f8f8f8)";
+}
+
+/*三角形*/
+.s_sj,.x_sj,.s_sj_lan{
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+}
+.s_sj{
+	border-bottom: 4px solid #e5e5e5;
+}
+.x_sj{
+	border-top: 4px solid #e5e5e5;
+}
+.s_sj_lan{
+	border-top: 4px solid #39adff;
+}
+/*横线*/
+.h_x{
+	width: 82px;
+	height: 0;
+	border: 1px solid#39adff;
+}
+
+body{
+	margin-bottom: 50px;
+}
+
+
+
+/*主要内容*/
+.content{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 80px;
+	border: 1px solid #e2e2e2;
+	margin-bottom: 110px;}
+.content1{
+	
+}
+ .content .nav{
+	width: 1200px;
+	height: 48px;
+	background: #fafafa;
+	border-right: 1px solid #f0f0f0;
+	position: relative;
+}
+ .content .nav img{
+ 	position: absolute;
+ 	left: 6px;
+ 	top: 18px;
+ }
+ .content .nav p{
+	width: 180px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+	color: #323232;
+	background: #ffffff;
+	border-top: 4px solid #e74c3c;
+	font-weight: 900;
+	text-shadow:1px 0px 1px #d6d6d6 ;
+}
+.content2{
+	margin-top: 60px;
+	font: "宋体";
+	font-size: 36px;
+	color: #323333;
+	text-shadow:1px 0px 1px #d6d6d6 ;
+	font-weight: 800;
+	position: relative;
+}
+.content2_img{
+margin: 25px 0 0 97px;
+}
+.content2_wz{
+	text-align: center;
+	margin: 175px 190px 0 0;
+}
+.content2_wz span{
+	line-height: 120px;
+	font-weight: 200;
+}
+.content2>img{
+	position: absolute;
+	right: 50px;
+	top: -25px;
+}
+.content3{
+	height: 789px;
+	width: 1200px;
+	margin-top: 30px;
+	background: url(../img/product/product10.png);
+	position: relative;
+}
+.content3_title{
+	
+}
+.content3_title img{
+	float: left;
+	margin-left: 125px;
+}
+.content3_title p{
+	float: left;
+	margin-left:20px;
+	font-size: 24px;
+	color: #313232;
+}
+.content3_title p span{
+	font-size: 18px;
+	color: #989898;
+}
+.description{
+	position: absolute;
+	top: 150px;
+	right: 620px;
+
+}
+.description1{
+	position: absolute;
+	top: 485px;
+	left: 725px;
+}
+.description2{
+	position: absolute;
+	top: 660px;
+	left: 410px;
+}
+.description_title{
+	width: 30px;
+	height: 30px;
+	background: #0497fd;
+	margin:25px 20px 0 20px;
+}
+.description_title p{
+	color: #ffffff;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+}
+.description_wz p{
+	font-size: 18px;
+	color: #4d4c4c;
+	line-height: 40px;
+}
+.right_justified p{
+	text-align: right;
+}
+.content4{
+	margin-bottom: 100px;
+}
+.content4 ul{
+	margin-left: 22px;
+}
+.content4 ul li{
+	float: left;
+	margin-left: 83px;
+}
+
+/*底部*/
+			/*居中*/
+.public-container{	
+	position: relative;
+	margin:0  auto;
+	width: 1195px;
+}
+/*底部*/
+.public-footer{
+	height: 300px;
+	background-color: #33373B;
+	margin-top:20px;
+}
+/*底部左侧*/
+.public-footer .footer-left{
+	width: 685px;
+	padding-left: 70px;
+	padding-top: 38px;
+	padding-bottom: 28px;
+	border-bottom: #474B4E 1px solid;
+	}
+.public-footer .footer-left dl{
+	float: left;
+	width: 100px;
+}
+.public-footer .footer-left dt a{
+	color: #FFF;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+}
+.footer-left dt a:hover{color: #39ACFF;}
+
+.public-footer .footer-left dd a{
+	color: #999;
+	font-size: 12px;
+	padding-top:10px;
+	display: inline-block;
+}
+.public-footer .footer-left dd a:hover{color: #FFFFFF;}
+
+/*底部右侧二维码*/
+.public-footer  .footer-right{
+	float: right;
+	width: 430px;
+	height: 195px;
+}
+.footer-right dl{
+	float: left;
+	padding-top: 38px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.footer-right dl:last-child{
+	padding-left: 30px;
+}
+.footer-right dt{
+	margin-bottom: 10px;
+}
+/*底部最底层免责声明*/
+.footer-bottom p{
+	font-size: 12px;
+	color: #fff;
+	font-family: "微软雅黑";
+	height: 20px;
+	position: absolute;
+	top: 250px;
+	left: 120px;
+}
